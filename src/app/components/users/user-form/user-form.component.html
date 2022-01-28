@@ -1,0 +1,9 @@
+<form [formGroup]="userForm">
+    <label for="name"> name</label>
+    <input type="text" formControlName="name">
+    <label for="firstname"> firstname</label>
+    <input type="text" formControlName="firstname">
+    <label for="lastname">lastname</label>
+    <input type="text" formControlName="lastname">
+    <button (click)="addUser()">ajouter</button>
+</form>
